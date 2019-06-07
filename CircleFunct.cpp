@@ -1,4 +1,5 @@
 #include "Circle.h"
+#include <cmath>
 
 Circle::Circle()
 {};
@@ -17,5 +18,5 @@ void Circle::setValRadius(float r)
 
 float Circle::area()
 {
-	return radius;
+	return 3.14*pow(radius,2.0);
 }
